@@ -1,0 +1,13 @@
+body {
+    --theme-color-foreground: lime;
+    --theme-color-background: black;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    background-color: var(--theme-color-background);
+    color: var(--theme-color-foreground);
+    font-family: Menlo,monospace;
+    font-size: 30px;
+    --glow: 0 0 30px var(--theme-color-foreground);
+    text-shadow: var(--glow), var(--glow);
+}
