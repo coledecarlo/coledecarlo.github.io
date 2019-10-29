@@ -3,7 +3,7 @@ function addHomeButton() {
         "afterbegin",
         `
             <div class="back-button">
-                <a href="../index.html">←Home</a>
+                <a href="..">←Home</a>
             </div>
         `
     );
